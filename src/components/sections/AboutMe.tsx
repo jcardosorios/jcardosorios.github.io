@@ -70,7 +70,7 @@ function AboutMe() {
 
     // TODO agregar foto e iconos de skills
     return (
-        <SectionWrapper id='about-me' title={currentContent.title} className="bg-background mx-auto">
+        <SectionWrapper id='about-me' title={currentContent.title} className="bg-background">
             <Card className="max-w-3xl mx-auto shadow-lg border border-border/60">
                 <CardHeader className="flex flex-row items-center justify-between pb-4">
                     <CardTitle className="text-2xl md:text-3xl font-semibold text-primary">{currentContent.greeting}</CardTitle>
