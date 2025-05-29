@@ -13,7 +13,7 @@ const projectsData: WebProject[] = [
     id: 'web-1',
     title: {
       en: 'PG Estudio Mural Catalog',
-      es: 'Plataforma E-commerce "ShopSphere"',
+      es: 'Catálogo de Murales PG Estudio',
     },
     description: {
       en: 'Static website designed to showcase the product catalog of a wallpaper store.',
