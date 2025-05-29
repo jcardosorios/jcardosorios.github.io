@@ -5,6 +5,7 @@ import { Button } from "./components/ui/Button";
 import { ArrowDown } from "lucide-react";
 import AboutMe from "./components/sections/AboutMe";
 import { useEffect } from "react";
+import WebDev from "./components/sections/WebDev";
 
 const content = {
   heroTitle: {
@@ -74,6 +75,7 @@ function App() {
           </div>
         </section>
         <AboutMe />
+        <WebDev />
         
 
       </main>
