@@ -104,7 +104,7 @@ function WebDev() {
                         {project.repoUrl && (
                             <Button asChild>
                                 <a href={project.repoUrl} target='_blank' rel='noopener noreferrer'>
-                                    <ExternalLink className='mr-2 h-4 w-4'/> {currentContent.liveDemo}
+                                    <ExternalLink className='mr-2 h-4 w-4'/> {currentContent.repository}
                                 </a>
                             </Button>
                         )}
