@@ -86,13 +86,13 @@ function Header() {
                         <SheetContent side='right'>
                             <nav className="flex flex-col space-y-4 mt-8">
                                 {currentContent.navItems.map((item) => (
-                                    <Link
+                                    <a
                                         key={item.label}
-                                        to={item.href}
+                                        href={item.href}
                                         className="text-lg text-foreground/80 transition-colors hover:text-primary "
                                     >
                                         {item.label}
-                                    </Link>
+                                    </a>
                                 ))}
                             </nav>
                         </SheetContent>

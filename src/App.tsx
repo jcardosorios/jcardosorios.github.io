@@ -1,8 +1,10 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { useLanguage } from "./context/LanguageContext";
 import Header from "./layout/Header"
 import { Button } from "./components/ui/Button";
 import { ArrowDown } from "lucide-react";
+import AboutMe from "./components/sections/AboutMe";
+import { useEffect } from "react";
 
 const content = {
   heroTitle: {
@@ -21,12 +23,29 @@ const content = {
 
 
 function App() {
+  const location = useLocation()
   const { language } = useLanguage();
   const currentContent = {
     heroTitle: content.heroTitle[language],
     heroSubtitle: content.heroSubtitle[language],
     exploreButton: content.exploreButton[language],
   };
+
+  useEffect(() => {
+    if (location.hash) {
+      const id = location.hash.substring(1); 
+      const timer = setTimeout(() => {
+        const element = document.getElementById(id);
+        if (element) {
+          element.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start', 
+          });
+        }
+      }, 100); 
+      return () => clearTimeout(timer);
+    }
+  }, [location]);
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -54,6 +73,7 @@ function App() {
             </Button>
           </div>
         </section>
+        <AboutMe />
         
 
       </main>
