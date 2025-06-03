@@ -24,3 +24,13 @@ export interface TimelineEvent {
   description: LocalizedString;
   icon?: React.ElementType;
 }
+
+export interface WorkExperienceEvent {
+  id: string;
+  date: string;
+  role: LocalizedString;
+  company: LocalizedString;
+  description: LocalizedString;
+  responsibilities?: { en: string[]; es: string[] };
+  icon?: React.ElementType;
+}

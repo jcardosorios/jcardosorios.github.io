@@ -14,11 +14,11 @@ function TimelineItem({event, isLast} : TimelineItemProps) {
     // TODO shadow en modo oscuro
     return (
         <li className='mb-10 ms-6 relative'>
-            <span className='absolute flex items-center justify-center w-8 h-8 bg-primary rounded-full -start-4 ring-4 ring-background  text-primary-foreground'>
+            <span className='absolute flex items-center justify-center w-8 h-8 bg-primary rounded-full -start-4 ring-4 ring-background  text-primary-foreground/'>
                 <Icon className='h-4 w-4'/>
             </span>
             {!isLast && <div className="absolute w-px h-full bg-border -start-[0.85rem] top-8"></div>}
-            <Card className='ml-4 shadow-md hover:shadow-lg transition-shadow duration-300 dark:hover:shadow-foreground'>
+            <Card className='ml-4 shadow-md hover:shadow-lg transition-shadow duration-300 dark:hover:shadow-foreground/30'>
                 <CardHeader className='pb-2'>
                     <div className='flex items-center justify-between'>
                         <CardTitle className='text-xl'>{event.title[language]}</CardTitle>
