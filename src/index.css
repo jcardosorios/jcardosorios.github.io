@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Geist:wght@100..900&display=swap');
 @layer theme, base, mui, components, utilities;
-@import "@radix-ui/themes/styles.css";
+/* @import "@radix-ui/themes/styles.css"; */
 @import "tailwindcss";
 
 @theme {
@@ -11,7 +11,7 @@
   --radius: 0.5rem;
 
 
-  --color-background: #F0F4F8; /* light gray */
+  --color-background: #eff2f7; /* light gray */
   --color-foreground: #2F3740; /* Dark gray for text */
   --color-card: #FFFFFF; /* White cards */
   --color-card-foreground: #2F3740;
@@ -91,6 +91,7 @@
     --color-sidebar-accent-foreground: #F5F5F6;
     --color-sidebar-border: #282830;
     --color-sidebar-ring: #3B82F6;
+    --color-card-hover-shadow-dark-hsl: #000064;
   }
 }
 

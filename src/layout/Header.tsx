@@ -44,7 +44,7 @@ function Header() {
     ariaLabelLanguage: content.ariaLabelLanguage[language],
   };
   return (
-    <div className="sticky top-0 z-50 w-full border-b bg-background/90 backdrop-blur-sm supports-[backdrop-filter]:bg-background/70 shadow-sm">
+    <header className="sticky top-0 z-50 w-full border-b bg-background/90 backdrop-blur-sm supports-[backdrop-filter]:bg-background/70 shadow-sm">
         <div className="container flex h-16 items-center justify-between max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
             <Link to={'/'} className="flex items-center gap-2 group">
                 <Briefcase className="h-7 w-7 text-primary transition-transform duration-300 group-hover:rotate-[15deg]" />
@@ -100,7 +100,7 @@ function Header() {
                 </div>
             </div>
         </div>
-    </div>
+    </header>
   )
 }
 

@@ -15,3 +15,12 @@ export interface Project {
   methodologyList?: { en: string[]; es: string[] }; 
   tags?: string[]; 
 }
+
+export interface TimelineEvent {
+  id: string;
+  date: string;
+  title: LocalizedString;
+  institution: LocalizedString;
+  description: LocalizedString;
+  icon?: React.ElementType;
+}

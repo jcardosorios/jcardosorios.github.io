@@ -79,7 +79,7 @@ function WebDev() {
                             <img 
                                 src={project.imageUrl} 
                                 alt={project.title[language]} 
-                                className='absolute inset-0 w-full h-full object-cover'
+                                className='absolute inset-0 w-full h-full '
                             />
                         </div>
                         <CardTitle className='text-2xl'>{project.title[language]}</CardTitle>
