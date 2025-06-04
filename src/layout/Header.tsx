@@ -18,10 +18,10 @@ const content = {
   },
   navItems: [
     { href: "#about-me", label: { en: "About Me", es: "Sobre Mí" } },
+    { href: "#work-experience", label: { en: "Work Experience", es: "Experiencia Laboral" } },
+    { href: "#timeline", label: { en: "Education", es: "Estudios" } },
     { href: "#web-dev", label: { en: "Web Dev", es: "Des. Web" } },
     { href: "#data-science", label: { en: "Data Science", es: "Cien. Datos" } },
-    { href: "#timeline", label: { en: "Timeline", es: "Cronología" } },
-    { href: "#portfolio-itself", label: { en: "This Site", es: "Este Sitio" } },
     { href: "#contact", label: { en: "Contact", es: "Contacto" } },
   ] as NavItem[],
   languageToggle: {
@@ -52,7 +52,7 @@ function Header() {
                     {currentContent.portfolioName}
                 </span>
             </Link>
-            <nav className="hidden md:flex items-center space-x-4 text-sm font-medium">
+            <nav className="hidden md:flex md:flex-wrap items-center space-x-4 text-sm font-medium">
                 {currentContent.navItems.map((item) => (
                     <Link
                         key={item.label}

@@ -23,7 +23,7 @@ function WorkExperienceItem({event, isLast} : WorkExperienceProps) {
         <span className='absolute flex items-center justify-center w-8 h-8 bg-primary rounded-full -start-4 ring-4 ring-background text-primary-foreground'>
             <Icon className='w-4 h-4' />
         </span>
-        {!isLast && <div className='absolute w-px h-full bg-border -starts-[0.85rem] top-8'></div>}
+        {!isLast && <div className='absolute w-px h-full bg-border -start-[0.85rem] top-8'></div>}
         <Card className='ml-4 shandow-md hover:shadow-lg transition-all duration-300  dark:hover:shadow-foreground/30'>
             <CardHeader className='pb-2'>
                 <div className='flex flex-col sm:flex-row sm:items-center sm:justify-between'>

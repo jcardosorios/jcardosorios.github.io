@@ -34,3 +34,10 @@ export interface WorkExperienceEvent {
   responsibilities?: { en: string[]; es: string[] };
   icon?: React.ElementType;
 }
+
+export interface ContactMeEvent {
+  href: string, 
+  label: LocalizedString,
+  icon: React.ElementType,
+  handle: string
+}

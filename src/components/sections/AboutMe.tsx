@@ -3,6 +3,7 @@ import { SectionWrapper } from "./SectionWrapper";
 import { useLanguage } from "../../context/LanguageContext";
 import { Card, CardContent, CardHeader, CardTitle } from "../ui/Card";
 import { Badge } from "../ui/Badge";
+import profile from '../../assets/about-me/perfil.jpg'
 
 
 interface LanguageContent {
@@ -72,7 +73,8 @@ function AboutMe() {
     return (
         <SectionWrapper id='about-me' title={currentContent.title} className="bg-background">
             <Card className="max-w-3xl mx-auto shadow-lg border border-border/60">
-                <CardHeader className="flex flex-row items-center justify-between pb-4">
+                <CardHeader className="flex flex-column items-center justify-between pb-4">
+                    <img  src={profile} className="object-cover rounded-full w-40 h-40 sm:w-48 sm:h-48 ring ring-primary"/>
                     <CardTitle className="text-2xl md:text-3xl font-semibold text-primary">{currentContent.greeting}</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-6 pt-0">

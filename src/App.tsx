@@ -9,6 +9,7 @@ import WebDev from "./components/sections/WebDev";
 // import DataScienceProjects from './components/sections/DataScienceProjects';
 import Timeline from "./components/sections/Timeline";
 import WorkExperience from "./components/sections/WorkExperience";
+import ContactMe from "./components/sections/ContactMe";
 
 const content = {
   heroTitle: {
@@ -78,10 +79,11 @@ function App() {
           </div>
         </section>
         <AboutMe />
+        <WorkExperience/>
+        <Timeline />
         <WebDev />
         {/* <DataScienceProjects/> */}
-        <Timeline />
-        <WorkExperience/>
+        <ContactMe />
         
 
       </main>
