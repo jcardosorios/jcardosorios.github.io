@@ -9,7 +9,7 @@ import ContactMeItem from "../contact-me/ContactMeItem";
 const contactLinks : ContactMeEvent[] = [
   {
     href: 'https://github.com/jcardosorios',
-    label: { en: 'GitHub', es: 'GitHub' }, 
+    label: { en: 'Gihub', es: 'Github' }, 
     icon: Github,
     handle: 'jcardosorios',
   },
