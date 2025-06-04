@@ -23,6 +23,9 @@ export interface TimelineEvent {
   institution: LocalizedString;
   description: LocalizedString;
   icon?: React.ElementType;
+  logoUrl?: string;
+  logoAltText?: LocalizedString;
+  logoBgColor?: string;
 }
 
 export interface WorkExperienceEvent {
