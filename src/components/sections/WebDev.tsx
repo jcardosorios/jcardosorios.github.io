@@ -36,7 +36,7 @@ const projectsData: WebProject[] = [
     },
     imageUrl: uptask,
     imageHint: 'task board',
-    liveDemoUrl: 'https://uptask-rosy.vercel.app/',
+    liveDemoUrl: 'https://uptask-git-demo-joaquincardosorios-projects.vercel.app/',
     repoUrl: 'https://github.com/jcardosorios/11_uptask',
     tags: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'Node.js' ,'Express.js','MongoDB', 'Nodemailer'],
   },
