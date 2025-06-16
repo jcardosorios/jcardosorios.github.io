@@ -10,6 +10,7 @@ import Timeline from "./components/sections/Timeline";
 import WorkExperience from "./components/sections/WorkExperience";
 import ContactMe from "./components/sections/ContactMe";
 import DataScienceProjects from "./components/sections/DataScienceProjects";
+import Certificates from "./components/sections/Certificates";
 
 const content = {
   heroTitle: {
@@ -81,6 +82,7 @@ function App() {
         <AboutMe />
         <WorkExperience/>
         <Timeline />
+        <Certificates />
         <DataScienceProjects/>
         <WebDev />
         <ContactMe />
