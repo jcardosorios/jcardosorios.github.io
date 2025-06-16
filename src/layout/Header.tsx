@@ -20,8 +20,8 @@ const content = {
     { href: "#about-me", label: { en: "About Me", es: "Sobre Mí" } },
     { href: "#work-experience", label: { en: "Work Experience", es: "Experiencia Laboral" } },
     { href: "#timeline", label: { en: "Education", es: "Estudios" } },
-    { href: "#web-dev", label: { en: "Web Dev", es: "Des. Web" } },
     { href: "#data-science", label: { en: "Data Science", es: "Cien. Datos" } },
+    { href: "#web-dev", label: { en: "Web Dev", es: "Des. Web" } },
     { href: "#contact", label: { en: "Contact", es: "Contacto" } },
   ] as NavItem[],
   languageToggle: {

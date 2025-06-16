@@ -7,10 +7,26 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { SectionWrapper } from './SectionWrapper';
 import pgestudio from '../../assets/projects/pgestudio.png';
 import uptask from '../../assets/projects/uptask.png'
+import porfolio from '../../assets/projects/jcardoso-portfolio.png'
 
 const projectsData: WebProject[] = [
   {
-    id: 'web-1',
+    id: 'this-website',
+    title: {
+      en: "JCardoso's Portfolio",
+      es: 'Portafolio de JCardoso',
+    },
+    description: {
+      en: "This site you're visiting is a portfolio showcasing my skills and completed projects.",
+      es: 'El sitio que estás visitando, sitio para mostrar mis capacides y proyectos realizados',
+    },
+    imageUrl: porfolio,
+    imageHint: 'porfolio',
+    liveDemoUrl: 'https://jcardosorios.github.io/',
+    tags: ['React', 'Vite', 'Tailwind CSS', 'Node.js'],
+  },
+  {
+    id: 'pg-estudio',
     title: {
       en: 'PG Estudio Mural Catalog',
       es: 'Catálogo de Murales PG Estudio',
@@ -79,7 +95,7 @@ function WebDev() {
                             <img 
                                 src={project.imageUrl} 
                                 alt={project.title[language]} 
-                                className='absolute inset-0 w-full h-full '
+                                className='w-full h-full object-cover'
                             />
                         </div>
                         <CardTitle className='text-2xl'>{project.title[language]}</CardTitle>

@@ -44,3 +44,16 @@ export interface ContactMeEvent {
   icon: React.ElementType,
   handle: string
 }
+
+export interface Project {
+  id: string;
+  title: LocalizedString;
+  description: LocalizedString;
+  imageUrl: string;
+  imageHint?: string;
+  liveDemoUrl?: string;
+  repoUrl?: string;
+  methodologies?: LocalizedString[];
+  methodologyList?: { en: string[]; es: string[] };
+  tags?: string[];
+}

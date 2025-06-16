@@ -6,10 +6,10 @@ import { ArrowDown } from "lucide-react";
 import AboutMe from "./components/sections/AboutMe";
 import { useEffect } from "react";
 import WebDev from "./components/sections/WebDev";
-// import DataScienceProjects from './components/sections/DataScienceProjects';
 import Timeline from "./components/sections/Timeline";
 import WorkExperience from "./components/sections/WorkExperience";
 import ContactMe from "./components/sections/ContactMe";
+import DataScienceProjects from "./components/sections/DataScienceProjects";
 
 const content = {
   heroTitle: {
@@ -81,8 +81,8 @@ function App() {
         <AboutMe />
         <WorkExperience/>
         <Timeline />
+        <DataScienceProjects/>
         <WebDev />
-        {/* <DataScienceProjects/> */}
         <ContactMe />
         
 
