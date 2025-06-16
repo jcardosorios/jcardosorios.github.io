@@ -17,12 +17,12 @@ const workExperienceData: WorkExperienceEventType[] = [
       es: 'Crecic S.A. - Concepción',
     },
     description: {
-      en: 'Led development of key features for a major e-commerce platform, mentored junior developers, and improved application performance by 20%.',
-      es: 'Lideré el desarrollo de características clave para una importante plataforma de comercio electrónico, capacité a desarrolladores junior y mejoré el rendimiento de la aplicación en un 20%.',
+      en: 'I was part of the development team responsible for the redesign and implementation of a new version of the municipal management system, using Svelte for the frontend, Node.js with Express for the backend, and PostgreSQL as the database. At the same time, I provided support to the help desk team by resolving tickets and fixing bugs in the production version of the system, developed in PHP and PostgreSQL, ensuring its continuous operation for various municipalities.',
+      es: 'Formé parte del equipo de desarrollo encargado del rediseño e implementación de una nueva versión del sistema de gestión municipal, utilizando Svelte para el frontend, Node.js con Express en el backend y PostgreSQL como base de datos. Al mismo tiempo, brindé soporte al área de mesa de ayuda, resolviendo tickets y corrigiendo errores en la versión en producción del sistema, desarrollada en PHP y PostgreSQL, asegurando su funcionamiento continuo para diversos municipios.',
     },
     responsibilities: {
-      en: ['Full-stack development with React, Node.js, and PostgreSQL.', 'Agile methodology and CI/CD practices.', 'Code reviews and team collaboration.'],
-      es: ['Desarrollo full-stack con React, Node.js y PostgreSQL.', 'Metodología Agile y prácticas de CI/CD.', 'Revisiones de código y colaboración en equipo.'],
+      en: ['Full-stack development with Svelte, Node.js, and PostgreSQL.', 'Agile methodology', 'Code reviews and team collaboration.'],
+      es: ['Desarrollo full-stack con Svelte, Node.js y PostgreSQL.', 'Metodología Agile ', 'Revisiones de código y colaboración en equipo.'],
     },
     icon: Briefcase,
   },
@@ -38,12 +38,12 @@ const workExperienceData: WorkExperienceEventType[] = [
       es: 'Cervecera CCU Chile Ltda, Temuco',
     },
     description: {
-      en: 'Performed data analysis, created dashboards, and provided actionable insights for marketing campaigns. Developed predictive models for customer behavior.',
-      es: 'Realicé análisis de datos, creé paneles de control y proporcioné información procesable para campañas de marketing. Desarrollé modelos predictivos para el comportamiento del cliente.',
+      en: 'I worked as a Process Engineer in the mechanical maintenance area of the brewery production plant, where I implemented and optimized the current preventive maintenance plan. I led initiatives focused on continuous improvement and safety, managed the inventory of critical and non-critical spare parts, and supervised maintenance tasks performed by both in-house and external personnel, ensuring proper completion. Additionally, I was in charge of the team responsible for applying the 5S methodology in the production area.',
+      es: 'Me desempeñé como Ingeniero de Procesos en el área de mantenimiento mecánico en la planta de elaboración cervecera, donde implementé y optimicé el plan de mantenimiento preventivo actualmente vigente. Lideré iniciativas de mejora continua y seguridad, gestioné el stock de repuestos críticos y no críticos, y supervisé las tareas de mantenimiento realizadas tanto por personal interno como externo, validando su correcta ejecución. Además, estuve a cargo del equipo responsable de aplicar la metodología 5S en el área de producción.',
     },
     responsibilities: {
-        en: ['Data cleaning and preprocessing.', 'Statistical analysis and A/B testing.', 'Report generation and presentation.'],
-        es: ['Limpieza y preprocesamiento de datos.', 'Análisis estadístico y pruebas A/B.', 'Generación de informes y presentación.'],
+      en: ['Active participation in the design and implementation of technical solutions.', 'Identification and proposal of improvements to existing processes and systems.', 'Coordination and follow-up of tasks within a multidisciplinary team.', 'Clear documentation of procedures, solutions, and applied changes.'],
+      es: ['Participación activa en el diseño e implementación de soluciones técnicas.', 'Identificación y propuesta de mejoras en procesos y sistemas existentes.', 'Coordinación y seguimiento de tareas en equipo multidisciplinario.', 'Documentación clara de procedimientos, soluciones y cambios aplicados.'],
     },
     icon: Briefcase,
   },
